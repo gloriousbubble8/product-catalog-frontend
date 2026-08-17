@@ -1,18 +1,24 @@
 #container {
     display: flex;
 }
+
+#pc_container:hover {
+    transform: translateY(-4px);
+}
+
 #pc_container {
-    border: 1px solid black;
+    border: none;
     display: inline-block;
     width: 200px;
     margin-bottom: 20px;
     margin-right: 20px;
     padding-bottom: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.185);
 }
 
 #timg img {
     width: 200px;
-    border: 1px solid red;
+    border: none;
 }
 
 #pdesc {
@@ -26,7 +32,7 @@
 a {
     margin-bottom: 20px;
     background-color: orange;
-    padding: 3px;
+    padding: 5px;
     border-radius: 3px;
     text-decoration: none;
 }
