@@ -1,0 +1,30 @@
+#container {
+    display: flex;
+}
+#pc_container {
+    border: 1px solid black;
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#timg img {
+    width: 200px;
+    border: 1px solid red;
+}
+
+#pdesc {
+    text-align: center;
+}
+
+#pdesc p {
+    font-display: block;
+}
+
+a {
+    margin-bottom: 20px;
+    background-color: orange;
+    padding: 3px;
+    border-radius: 3px;
+}
