@@ -32,7 +32,7 @@ function createProductCard1(product){
                 <p>${product.title}</p>
                 <p><strong>$ ${product.price}</strong></p>
                 <a href="details.html" target="_blank" id="dtlsa">
-                    <span id="dtls">See More details</span>
+                    <span id="dtls">Add to Cart</span>
                 </a>
             </div>
         </div>
