@@ -14,6 +14,8 @@
     margin-right: 20px;
     padding-bottom: 10px;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.185);
+    transition: all 0.5;
+    transition: transform 0.5s ease;
 }
 
 #timg img {
@@ -31,7 +33,7 @@
 
 a {
     margin-bottom: 20px;
-    background-color: orange;
+    background-color: rgba(255, 179, 0, 0.817);
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 5px;
