@@ -3,7 +3,7 @@
 }
 
 #pc_container:hover {
-    transform: translateY(-4px);
+    transform: translateY(4px);
 }
 
 #pc_container {
@@ -40,4 +40,8 @@ a {
     padding-bottom: 5px;
     border-radius: 14px;
     text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.75;
 }
